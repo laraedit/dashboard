@@ -1,0 +1,86 @@
+/*
+	dark   - #292B3A
+	medium - #2F3243
+	light  - #393E52
+
+	text   - #757CA4
+*/
+
+
+html {
+	
+}
+
+body {
+	background: #292B3A;
+	color: #757CA4;
+}
+
+.navbar {
+	border-radius: 0;
+	background: #2F3243;
+	border: 0;
+	height: 75px;
+	box-shadow: 0px -5px 15px #000000;
+	z-index: 99999;
+}
+
+.sidebar {
+	position: fixed;
+	top: 75px;
+	bottom: 0;
+	left: 0;
+	width: 65px;
+	height: 100%;
+	background: #2F3243;
+	z-index: 9999;
+}
+
+.sidebar .list-group-item {
+	width: 65px;
+	height: 65px;
+	background: #2F3243;
+	border: 0;
+	border-radius: 0;
+	text-align: center;
+	line-height: 65px;
+	font-size: 18pt;
+	padding: 0;
+	color: #757CA4;
+}
+
+.sidebar .list-group-item:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.canvas {
+	margin-left: 105px;
+	margin-top: 50px;
+	margin-right: 40px;
+	height: 200px;
+}
+
+.panel {
+	border-radius: 0;
+	border: 0;
+	background: #2F3243;
+}
+
+.panel .panel-heading {
+	border-radius: 0;
+	border: 0;
+	color: #FFFFFF;
+	background: #393E52;
+	height: 75px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.panel .panel-heading .panel-title {
+	line-height: 80px;
+	font-weight: 800;
+	font-size: 15pt;
+	margin: 0;
+	padding: 0;
+}
