@@ -49,7 +49,9 @@ body {
 	color: #757CA4;
 }
 
-.sidebar .list-group-item:hover {
+.sidebar .list-group-item:hover,
+.sidebar .list-group-item:active,
+.sidebar .list-group-item:focus {
 	background: rgba(0, 0, 0, 0.1);
 }
 
