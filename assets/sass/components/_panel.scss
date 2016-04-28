@@ -1,0 +1,24 @@
+.panel {
+	border-radius: 0;
+	border: 0;
+	background: $medium-slate;
+
+	.panel-heading {
+		border-radius: 0;
+		border: 0;
+		color: $white;
+		background: $light-slate;
+		height: 75px;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+
+		.panel-title {
+			line-height: 80px;
+			font-weight: 800;
+			font-size: 15pt;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}

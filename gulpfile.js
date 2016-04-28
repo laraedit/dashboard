@@ -17,5 +17,5 @@ elixir.config.publicPath = 'dist';
 
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass('dashboard.scss');
 });
