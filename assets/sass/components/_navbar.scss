@@ -6,6 +6,10 @@
 	box-shadow: 0px -5px 15px $black;
 	z-index: 99999;
 
+	.container-fluid {
+		padding: 0;
+	}
+
 	.navbar-header {
 		height: 75px;
 
@@ -13,14 +17,25 @@
 			height: 75px;
 			line-height: 75px;
 			padding-top: 1px;
-			padding-left: 30px;
+			padding-left: 50px;
 			padding-right: 30px;
 			color: $bright-slate;
 		}
 
 		.navbar-brand:hover {
 			color: $bright-slate;
+			background: rgba(0, 0, 0, 0.1);
 		}
+	}
+
+	.navbar-nav {
+		background: $medium-slate;
+	}
+
+	.avatar {
+		height: 50px;
+		width: 50px;
+		margin-right: 10px;
 	}
 
 	.navbar-nav li a {
@@ -30,10 +45,117 @@
 		color: $white;
 		min-width: 75px;
 		text-align: center;
+		font-size: 14pt;
 	}
 
-	.navbar-nav li a:hover {
+	.dot {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $primary;
+		border: 4px solid $medium-slate;
+	}
+
+	.dot-green {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $green;
+		border: 4px solid $medium-slate;
+	}
+
+	.dot-blue {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $blue;
+		border: 4px solid $medium-slate;
+	}
+
+	.dot-red {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $red;
+		border: 4px solid $medium-slate;
+	}
+
+	.dot-yellow {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $yellow;
+		border: 4px solid $medium-slate;
+	}
+
+	.dot-purple {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $purple;
+		border: 4px solid $medium-slate;
+	}
+
+	.dot-pink {
+		position: fixed;
+		margin-top: 20px;
+		margin-left: -12px;
+		width: 17px;
+		height: 17px;
+		border-radius: 100px;
+		background: $pink;
+		border: 4px solid $medium-slate;
+	}
+
+	.navbar-nav li a:hover,
+	.navbar-nav li a:active,
+	.navbar-nav li a:focus,
+	.navbar-nav li a:visited,
+	.navbar-nav li.open a:hover,
+	.navbar-nav li.open a:active,
+	.navbar-nav li.open a:focus,
+	.navbar-nav li.open a:visited,
+	.navbar-nav li.dropdown a:hover,
+	.navbar-nav li.dropdown a:active,
+	.navbar-nav li.dropdown a:focus,
+	.navbar-nav li.dropdown a:visited {
 		background: rgba(0, 0, 0, 0.1);
 		color: $white;
+	}
+
+	.dropdown-menu {
+		background: $medium-slate;
+		padding-top: 0;
+		padding-bottom: 0;
+
+		li a {
+			height: 50px;
+			line-height: 50px;
+			text-align: left;
+		}
+
+		.divider {
+			background: $dark-slate;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
 	}
 }
