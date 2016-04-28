@@ -1,0 +1,135 @@
+.btn {
+	border: 2px solid $primary;
+	background: rgba(0, 0, 0, 0.0);
+	border-radius: 100px;
+	padding: 10px 20px;
+
+	i {
+		margin-left: 15px;
+	}
+}
+
+
+.btn-primary {
+	border-color: $primary;
+
+	i {
+		color: $primary;
+	}
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	border-color: $primary;
+	background: $primary;
+
+	i {
+		color: $white;
+	}
+}
+
+.btn-red {
+	border-color: $red;
+	color: $white;
+
+	i {
+		color: $red;
+	}
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+	background: $red;
+	border-color: $red;
+	color: $white;
+
+	i {
+		color: $white;
+	}
+}
+
+.btn-green {
+	border-color: $green;
+	color: $white;
+
+	i {
+		color: $green;
+	}
+}
+
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus {
+	background: $green;
+	border-color: $green;
+	color: $white;
+
+	i {
+		color: $white;
+	}
+}
+
+.btn-yellow {
+	border-color: $yellow;
+	color: $white;
+
+	i {
+		color: $yellow;
+	}
+}
+
+.btn-yellow:hover,
+.btn-yellow:active,
+.btn-yellow:focus {
+	background: $yellow;
+	border-color: $yellow;
+	color: $dark-slate;
+
+	i {
+		color: $dark-slate;
+	}
+}
+
+.btn-purple {
+	border-color: $purple;
+	color: $white;
+
+	i {
+		color: $purple;
+	}
+}
+
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus {
+	background: $purple;
+	border-color: $purple;
+	color: $white;
+
+	i {
+		color: $white;
+	}
+}
+
+.btn-pink {
+	border-color: $pink;
+	color: $white;
+
+	i {
+		color: $pink;
+	}
+}
+
+.btn-pink:hover,
+.btn-pink:active,
+.btn-pink:focus {
+	background: $pink;
+	border-color: $pink;
+	color: $white;
+
+	i {
+		color: $white;
+	}
+}
