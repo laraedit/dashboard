@@ -1,0 +1,4 @@
+/.gitignore       			export-ignore
+/.gitattributes   			export-ignore
+/assets/js/Chart.bundle.js 	export-ignore
+/dist/js/dashboard.js		export-ignore
