@@ -1,4 +1,4 @@
 /.gitignore       			export-ignore
 /.gitattributes   			export-ignore
-/assets/js/Chart.bundle.js 	export-ignore
-/dist/js/dashboard.js		export-ignore
+/assets/js/Chart.bundle.js 	linguist-language=html
+/dist/js/dashboard.js		linguist-language=html
