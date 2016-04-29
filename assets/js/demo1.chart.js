@@ -1,6 +1,6 @@
 var ctx = document.getElementById("chart1").getContext("2d");
 
-var gradient = ctx.createLinearGradient(0, 0, 0, 300);
+var gradient = ctx.createLinearGradient(0, 0, 0, 400);
 
 gradient.addColorStop(0, "rgba(33, 150, 243, 0.9)");
 gradient.addColorStop(0.2, "rgba(33, 150, 243, 0.5)");
@@ -12,7 +12,7 @@ var chart1 = new Chart(ctx, {
         labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         
         datasets: [{
-            label: "# of Votes",
+            label: "Votes",
             data: [
                 Math.floor((Math.random() * 100) + 1),
                 Math.floor((Math.random() * 100) + 1),
