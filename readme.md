@@ -6,5 +6,5 @@ The LaraEdit Dashboard is an open source dashboard that uses Bootstrap and sever
 
 The LaraEdit Dashboard is currently a work in progress. Below is a screenshot of the current build.
 
-![LaraEdit Dashboard Screenshot][screenshot.png]
+![LaraEdit Dashboard Screenshot](screenshot.png)
 
