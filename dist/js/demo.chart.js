@@ -1,6 +1,6 @@
 var ctx = document.getElementById("chart1").getContext("2d");
 
-var gradient = ctx.createLinearGradient(0, 0, 0, 400);
+var gradient = ctx.createLinearGradient(0, 0, 0, 300);
 
 gradient.addColorStop(0, "rgba(33, 150, 243, 0.9)");
 gradient.addColorStop(0.2, "rgba(33, 150, 243, 0.5)");
