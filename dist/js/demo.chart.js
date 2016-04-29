@@ -7,8 +7,8 @@ $(document).ready(function() {
 
 var gradient = ctx.createLinearGradient(0, 0, 0, 400);
 
-gradient.addColorStop(0, "rgba(33, 150, 243, 0.9)");
-gradient.addColorStop(0.2, "rgba(33, 150, 243, 0.5)");
+gradient.addColorStop(0, "rgba(33, 150, 243, 0.8)");
+gradient.addColorStop(0.4, "rgba(33, 150, 243, 0.5)");
 gradient.addColorStop(1, "rgba(33, 150, 243, 0.1)");
 
 var chart1 = new Chart(ctx, {
@@ -137,7 +137,6 @@ window.onload = function onLoad() {
     		circle.path.setAttribute('stroke', state.color);
     		circle.path.setAttribute('stroke-width', state.width);
       		circle.setText(value2 + "%");
-      		// circle.path.value(value2);
     	}
   	});
 
