@@ -49,7 +49,6 @@ window.onload = function onLoad() {
     		circle.path.setAttribute('stroke', state.color);
     		circle.path.setAttribute('stroke-width', state.width);
       		circle.setText(value2 + "%");
-      		circle.value();
     	}
   	});
 
