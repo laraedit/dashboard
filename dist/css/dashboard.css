@@ -29,9 +29,10 @@ body {
   .navbar .navbar-nav {
     background: #2F3243; }
   .navbar .avatar {
-    height: 50px;
-    width: 50px;
-    margin-right: 10px; }
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    margin-top: -5px; }
   .navbar .navbar-nav li a {
     height: 75px;
     line-height: 75px;
