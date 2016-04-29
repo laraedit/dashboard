@@ -24,6 +24,8 @@ body {
     .navbar .navbar-header .navbar-brand:hover {
       color: #757CA4;
       background: rgba(0, 0, 0, 0.1); }
+  .navbar ul {
+    margin: 0; }
   .navbar .navbar-nav {
     background: #2F3243; }
   .navbar .avatar {
@@ -220,7 +222,7 @@ body {
 
 .canvas {
   margin-left: 105px;
-  margin-top: 50px;
+  margin-top: 125px;
   margin-right: 40px;
   height: 200px; }
 
