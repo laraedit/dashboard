@@ -30,7 +30,8 @@ var chart2 = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    display: false
                 }
             }]
         }

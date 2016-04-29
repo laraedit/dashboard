@@ -1,5 +1,10 @@
 var ctx = document.getElementById("chart1").getContext("2d");
 
+$(document).ready(function() {
+    var canvas = document.getElementById("chart1");
+    canvas.width = $("#chart1-parent").width();
+});
+
 var gradient = ctx.createLinearGradient(0, 0, 0, 400);
 
 gradient.addColorStop(0, "rgba(33, 150, 243, 0.9)");
@@ -30,8 +35,13 @@ var chart1 = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    display: false,
+                    padding: 0
                 }
+            }],
+            xAxes: [{
+                display: false
             }]
         }
     }

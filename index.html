@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="dist/css/dashboard.css">
 
 		<style>
-		.row {
+		/*.row {
 		  	display: -webkit-box;
 		  	display: -webkit-flex;
 		  	display: -ms-flexbox;
@@ -27,10 +27,38 @@
 		.row > [class*='col-'] {
 		  	display: flex;
 			flex-direction: column;
+		}*/
+		
+		.panel .panel-body .chart {
+			margin-bottom: -5px;
+			margin-left: -10px;
+			padding: 0px;
+			min-height: 300px;
 		}
-		.panel {
-			bottom: 0
+
+		.panel .panel-body .chart * {
+			padding: 0;
+			margin: 0; 
 		}
+
+		#chart1-parent {
+			padding: 0;
+			margin-right: -10px;
+		}
+
+		#chart1 {
+			max-height: 400px;
+		}
+
+        .progress {
+			margin: 20px;
+			width: 100px;
+			height: 100px;
+			background: rgba(0, 0, 0, 0);
+			padding: 0;
+			box-shadow: none;
+		}
+
 		</style>
 
 		<!--[if lt IE 9]>
@@ -100,8 +128,11 @@
 				<div class="row equal">
 					<div class="col-md-9">
 						<div class="panel panel-default">
-						  	<div class="panel-body">
-						    	<canvas id="chart1" style="width: 100%; min-height: 300px;"></canvas>
+						  	<div class="panel-body" id="chart1-parent">
+						  		<div class="progress col-md-2" id="progress1"></div>
+						  		<div class="progress col-md-2" id="progress2"></div>
+						  		<div class="progress col-md-2" id="progress3"></div>
+						    	<canvas id="chart1" class="chart"></canvas>
 						  	</div>
 						</div>
 					</div>
@@ -120,7 +151,7 @@
 					<div class="col-md-6">
 						<div class="panel panel-default">
 						  	<div class="panel-body">
-						    	<canvas id="chart2" style="width: 100%; min-height: 300px;"></canvas>
+						    	<canvas id="chart2" class="chart"></canvas>
 						  	</div>
 						</div>
 					</div>
@@ -148,7 +179,7 @@
 			</div>
 		</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="dist/js/dashboard.js"></script>
 		<script src="dist/js/demo.chart.js"></script>
